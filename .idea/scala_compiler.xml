@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="mycollab-config,mycollab-scheduler,mycollab-services,mycollab-caching,mycollab-web-community,mycollab-scheduler-community,mycollab-migration,mycollab-core,mycollab-servlet,mycollab-web,mycollab-localization,mycollab-services-community,mycollab-dao,mycollab-jackrabbit,mycollab-test,mycollab-server-runner,mycollab-mobile,mycollab-app-community,mycollab-esb,mycollab-ui,mycollab-reporting" />
+  </component>
+</project>
