@@ -41,6 +41,8 @@ import com.vaadin.server.Resource;
 import com.vaadin.ui.*;
 import org.vaadin.viritin.button.MButton;
 
+import java.util.Locale;
+
 /**
  * @author MyCollab Ltd.
  * @since 1.0
@@ -48,6 +50,11 @@ import org.vaadin.viritin.button.MButton;
 @ViewComponent
 public class LoginViewImpl extends AbstractVerticalPageView implements LoginView {
     private static final long serialVersionUID = 1L;
+
+    @Override
+    public Locale getLocale() {
+        return super.getLocale();
+    }
 
     public LoginViewImpl() {
         this.setStyleName("loginView");

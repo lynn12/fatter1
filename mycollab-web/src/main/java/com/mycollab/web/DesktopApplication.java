@@ -310,6 +310,8 @@ public class DesktopApplication extends MyCollabUI {
         BillingAccountService billingAccountService = AppContextUtil.getSpringBean(BillingAccountService.class);
 
         SimpleBillingAccount billingAccount = billingAccountService.getBillingAccountById(MyCollabUI.getAccountId());
+        /*billingAccount.getBillingPlan().setBillingtype("Ultimate");
+        billingAccount.getBillingPlan().setPricing(99999999999d);*/
         LOG.info(String.format("Get billing account successfully - Pricing: %s, User: %s - %s", "" + billingAccount.getBillingPlan().getPricing(),
                 user.getUsername(), user.getDisplayName()));
         UserUIContext.getInstance().setSessionVariables(user, billingAccount);
